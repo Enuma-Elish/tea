@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:background="#00ff00"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+   android:layout_gravity="start">
+    <!--侧滑菜单-->
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/layout_menu_header"
+        app:menu="@menu/menu_main"
+        android:layout_gravity="start"/>
+</LinearLayout>

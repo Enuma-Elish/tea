@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 分组 -->
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_main"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="首页"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/menu_setting"
+            android:icon="@android:drawable/ic_input_delete"
+            android:title="设置"/>
+
+        <item
+            android:id="@+id/menu_my"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="我的"/>
+
+        <item
+            android:id="@+id/menu_count"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="账号"/>
+    </group>
+<!-- 嵌套 -->
+    <item android:title="更多">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_info"
+                android:icon="@android:drawable/ic_lock_idle_charging"
+                android:title="版权信息"/>
+
+            <item
+                android:id="@+id/menu_code"
+                android:icon="@android:drawable/ic_dialog_info"
+                android:title="扫描二维码"/>
+
+        </menu>
+
+    </item>
+</menu>
